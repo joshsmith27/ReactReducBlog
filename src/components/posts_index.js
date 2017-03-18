@@ -23,6 +23,9 @@ class PostsIndex extends Component{
   render(){
     return (
       <div>
+      <div className = "Title">
+      React Simple Blog
+      </div>
       <div className = "text-xs-right">
         <Link to = "/posts/new" className = "btn btn-primary">
           Add a Post
